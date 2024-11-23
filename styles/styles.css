@@ -54,7 +54,7 @@ aside p {
 aside h2 {
   font-size: large;
   position: relative;
-  top: 45px;
+  /* top: 45px; */
 }
 aside img {
   width: 200px;
