@@ -53,8 +53,8 @@ aside p {
 }
 aside h2 {
   font-size: large;
-  /* position: relative;
-  top: 45px; */
+  position: relative;
+  top: 45px;
 }
 aside img {
   width: 200px;
