@@ -1,0 +1,51 @@
+:root {
+  --primary-color : #505033;
+  --secondary-color : #264969;
+  --accent1 : #cfcfb4;
+  --accent2 : #b4cde4;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--secondary-color);
+}
+h1 h2 {
+  font-weight: 100;
+}
+.social-links a {
+  text-decoration: none;
+}
+.pages a {
+  text-decoration: none;
+}
+body {
+  max-width: 1200px;
+}
+.hero {
+  position: relative;
+}
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  left: 85px;
+  color: var(--accent1);
+}
+.hero article {
+  position: absolute;
+  background-color: var(--primay-color);
+  opacity: var(--secondary-color);
+  text-align: center;
+}
+.hero article img {
+  width: 300px;
+  height: auto;
+  float: right;
+  margin-left: 20px;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
