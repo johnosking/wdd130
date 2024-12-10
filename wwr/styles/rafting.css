@@ -76,9 +76,10 @@ header {
 }
 header nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   font-size: x-large;
-  padding: 3px;
+  margin: 60px;
+  background-color: white;
 
 }
 nav a {
@@ -150,7 +151,7 @@ figure {
 }
 figure img {
   display: grid;
-  margin: px;
+  /* margin: px; */
   justify-content: center;
   width: 200px;
   height: 100%;
@@ -175,14 +176,12 @@ footer {
 footer p{
   display: grid;
   align-items: center;
+  /* : right; */
   color: var(--accent1);
-  grid-column: 1/2;
-
 }
 
 footer nav{
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
-  justify-content: right;
+  align-items: center;
+  justify-content: center;
 }
