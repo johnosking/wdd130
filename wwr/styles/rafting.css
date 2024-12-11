@@ -3,6 +3,7 @@
   --secondary-color : #264969;
   --accent1 : #cfcfb4;
   --accent2 : #b4cde4;
+  --fig-caption: #000;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -160,7 +161,7 @@ figure img {
 }
 figcaption {
   text-align: center;
-  color: var(--accent1);
+  color: var(--fig-caption);
   font-size: 10px;
   font-weight: bold;
 }
