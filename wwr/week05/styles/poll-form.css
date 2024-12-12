@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+header {
+  margin: 0 auto;
+  width:400px;
+}
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #1e2478;
+  text-align: center;
+}
+form {
+  display: grid;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid rgb(0 0 0 / 0.1);
+  border-radius: 6px;
+  background-color: #eee
+}
+fieldset {
+  display: grid;
+  grid-gap: 10px;
+  margin: 2px;
+  border: 2px solid rgb(0 0 0 / 0.2);
+  padding: 10px;
+}
+legend {
+  padding: 10px;
+  color: #1e2478;
+  font-weight: 700;
+  font-size: larger;
+}
+label, input, button, select, textarea {
+  font-family:"Lucida Sans Unicode", sans-serif;
+  color: #000;   
+}
+label {
+  text-align: right;
+  padding-right: 10px;
+  font-weight: bold;
+}
+input, select, textarea {
+  padding: 2px;
+  font-size: larger;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  vertical-align: bottom;
+}
+
+button {
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #1e2478;
+  color: #ffffff;
+}
+button:hover {
+  background-color: crimson;
+}
+footer p {
+  margin: 10px auto 0;
+  text-align: center;
+  font-size: large;
+  border-top: 2px solid #ccc
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+.column1 {
+  grid-template-columns: 3fr 1fr;
+  margin: 10px 0;
+}
+.column2 {
+  grid-template-columns: 1fr 2fr;
+}
