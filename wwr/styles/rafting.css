@@ -79,8 +79,8 @@ header nav {
   display: flex;
   justify-content: space-around;
   font-size: x-large;
-  margin: 60px;
   background-color: white;
+  gap: 3rem;
 
 }
 nav a {
@@ -189,38 +189,54 @@ footer nav{
 h1 {
   margin: 10px;
   font-size: 300%;
-  text-align: left;
+  /* text-align: left; */
 }
-
-main{
+main {
   display: grid;
-  width:1200px;
+  /* width: 1200px; */
   grid-template-columns: 1fr 2fr;
-  margin: 40px;
   border: 2px solid #000;
 }
 
-main h2 {
-  font-size: 200%;
+.contact-page main {
+  display: grid;
 
+  grid-template-columns: 1fr 2fr;
+  margin: 40px 0;
+  border: 2px solid #000;
+}
+
+.contact-info {
+  text-align: center;
+  margin: 5px;
+}
+.contact-info h2 {
+  font-size: 200%;
+  color: var(--accent1);
+  background-color: var(--secondary-color);
+  text-align: center;
+  border-radius: 20px;
+}
+.contact-paragraph {
+  text-align: left;
+  margin: 2px;
 }
 
 form {
   display: grid;
+  /* grid-template-columns: 1fr 1fr; */
   align-items: center;
-  width: 400px;
-  height: 100%;
-  margin: 0 auto;
+  
+  /* margin: 0 auto; */
   padding: 10px;
-  /* border: 2px solid rgba(255, 255, 255, 0.817); */
   border-radius: 6px;
   background-color: #ffffff
   
 }
 fieldset {
   display: grid;
-  width: 350px;
-  /* grid-template-columns: 1fr 1fr; */
+  width: 800px;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   margin: 2px;
   padding: 10px;
@@ -240,12 +256,12 @@ input, select, textarea {
 }
 
 .column1 {
-  grid-template-columns: 3fr 1fr;
-  margin: 2px 0;
+  /* grid-template-columns: 3fr 1fr ; */
+  /* align-items: center; */
 }
 .column2 {
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
+  /* grid-template-columns: 1fr 2fr; */
+  /* align-items: center; */
 }
 
 input[type="checkbox"] {
@@ -275,22 +291,17 @@ button:hover {
 
 .button p {
   display: block;
-  margin-top: 10px;
-  margin-right: 40px;
+  margin-right: auto;
   color: var(--secondary-color);
 }
 
 .employee-image {
+  grid-column: 1/3;
   display: flex;
   gap: 10px;
   justify-content: space-around;
   align-items: center;
   margin-top: 20px;
+  border: 2px solid #000;
 }
-/* 
-.employee-image img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
- */
+
