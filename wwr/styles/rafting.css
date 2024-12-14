@@ -256,12 +256,12 @@ input, select, textarea {
 }
 
 .column1 {
-  /* grid-template-columns: 3fr 1fr ; */
-  /* align-items: center; */
+  grid-template-columns: 3fr 1fr ;
+  align-items: center;
 }
 .column2 {
-  /* grid-template-columns: 1fr 2fr; */
-  /* align-items: center; */
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
 }
 
 input[type="checkbox"] {
@@ -302,6 +302,6 @@ button:hover {
   justify-content: space-around;
   align-items: center;
   margin-top: 20px;
-  border: 2px solid #000;
+  border-top: 2px solid #000;
 }
 
