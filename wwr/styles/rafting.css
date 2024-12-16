@@ -63,7 +63,7 @@ body {
   margin-left: 10px;
   opacity: 1;
 }
-h2 {
+.about-main h2 {
   font-size: 50px;
   font-weight: bold;
   color: var(--accent2);
@@ -90,6 +90,7 @@ nav a {
   color: #000;
 }
 
+/* histoy */
 .history {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -186,11 +187,6 @@ footer nav{
   justify-content: center;
 }
 
-h1 {
-  margin: 10px;
-  font-size: 300%;
-  /* text-align: left; */
-}
 .about-main {
   display: grid;
   /* width: 1200px; */
@@ -210,6 +206,10 @@ h1 {
 .contact-info {
   text-align: center;
   margin: 5px;
+}
+.contact-info h1 {
+  margin: 10px;
+  font-size: 300%;
 }
 .contact-info h2 {
   font-size: 200%;
