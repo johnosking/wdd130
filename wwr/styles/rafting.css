@@ -573,12 +573,12 @@ form button:hover {
 /* contact us styles */
 .contact-hero {
   position: relative;
-  background-color: var(--accent1-color);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 2rem;
   margin-bottom: 10rem;
+
 }
 
 .contact-hero p {
@@ -596,22 +596,22 @@ form button:hover {
   position: absolute;
   bottom: -120px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   justify-content: space-between;
   gap: 0.8rem;
   padding: 0 50px;
+  
 }
 
 .card {
   border: 1px solid rgb(194, 197, 198);
   border-radius: 0.4em;
-  background-color: var(--primary-background-color);
-  box-shadow: var(--image-box-shadow);
+  background-color: var(--accent1);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1rem 2.2rem 2.2rem;
   height: 100px;
   width: 200px;
 }
@@ -644,11 +644,17 @@ form button:hover {
   margin: 3rem auto;
   max-width: 1200px;
 text-align: center;
-  margin: 30px;
+  margin: 0 30px 30px 30px;
+}
+.rivers .middle-img {
+  grid-column: 1/3;
+  grid-row: 2/4;
+  justify-content: center;
+  margin: 0 200px 0 200px;
 }
 
 #last {
-  grid-column: 1/3;
+  grid-row: 1/3;
   margin: 2rem 200px;
 }
 
