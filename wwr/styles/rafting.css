@@ -378,6 +378,10 @@ button:hover {
   text-decoration: none;
 }
 
+.cta-button{
+  text-decoration: none;
+  color: #000;
+}
 
 /* Form container styling */
 .form-section {
@@ -491,10 +495,6 @@ form button:hover {
 }
 
 
-
-
-
-
 .buttom-page {
   display: flex;
   /* position: relative; */
@@ -566,4 +566,165 @@ form button:hover {
 }
 .image-container article button:hover {
   background-color: #e05500;
+}
+
+
+
+/* contact us styles */
+.contact-hero {
+  position: relative;
+  background-color: var(--accent1-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  margin-bottom: 10rem;
+}
+
+.contact-hero p {
+  text-align: center;
+  font-size: small;
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+.contact-desc {
+  margin: -10px 0 5rem 0;
+}
+
+.card-container {
+  position: absolute;
+  bottom: -120px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 0 50px;
+}
+
+.card {
+  border: 1px solid rgb(194, 197, 198);
+  border-radius: 0.4em;
+  background-color: var(--primary-background-color);
+  box-shadow: var(--image-box-shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2.2rem 2.2rem;
+  height: 100px;
+  width: 200px;
+}
+
+.card button {
+  padding: 0 0.8rem;
+  font-size: 0.5rem;
+
+}
+.card .cta-button{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+
+.card span {
+  font-size: 0.8rem;
+}
+
+.card p {
+  font-size: 0.7rem;
+}
+
+
+
+.rivers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 3rem auto;
+  max-width: 1200px;
+text-align: center;
+  margin: 30px;
+}
+
+#last {
+  grid-column: 1/3;
+  margin: 2rem 200px;
+}
+
+.rivers figure {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  /* width: 300px; */
+}
+
+
+.rivers img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 0.4rem;
+}
+
+.rivers figcaption {
+  text-align: start;
+  font-weight: bold;
+}
+
+.rivers figcaption p {
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: #555;
+}
+
+/* Trip-page */
+.trip-heading {
+  text-align: center;
+  font-weight: bold;
+}
+.trip {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto; /* Center the table */
+  border: 1px solid #ddd; /* Light border for overall table */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a slight shadow for style */
+
+}
+
+th {
+  background-color: var(--accent2); /* Use the existing accent color */
+  color: #000; /* Ensure text is readable */
+  padding: 200px; /* Add space for clarity */
+  text-transform: uppercase; /* Optional for style */
+  font-size: 1.2rem; /* Slightly larger font for headers */
+  border-bottom: 2px solid #ddd; /* Distinguish header from rows */
+}
+
+td {
+  width: 140px;
+  border: 1px solid #ddd; /* Softer border */
+  padding: 0.8rem; /* More padding for readability */
+  text-align: center;
+  vertical-align: middle; /* Center content vertically */
+  font-size: 1rem; /* Standard font size */
+}
+
+tr button {
+  padding: 0.4rem 1rem;
+  font-size: 2px 0.5rem;
+  text-decoration: none;
+  color: #fff;
 }
